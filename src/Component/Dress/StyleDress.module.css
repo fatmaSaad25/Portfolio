@@ -1,0 +1,241 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.countTimer{
+    background: linear-gradient(135deg, #fce4eca2 0%, #F5F5F5 100%);
+    box-shadow: 0px 0px 0px 1px #ff497dbb;
+     border-radius:1rem;
+     margin: 20px 40px;
+     padding: 20px 30px;
+}
+.countTimer h2{
+    margin-left:40px;
+    font-size: 27px;
+  color: #FF497C;
+    text-shadow: 2px 2px  3px 4px #eeeeee;
+}
+.timer{
+    font-size: 25px;
+   text-align: center;
+   margin-right: 50px;
+}
+span{
+    padding-left: 20px;
+} 
+small{
+    padding-left: 30px;
+    color:rgb(61, 60, 60);
+    font-size: 24px;
+}
+.pageDress{
+     padding: 120px 20px;
+    background: linear-gradient(135deg, #fce4eca2 0%, #F5F5F5 100%);
+    text-align: center;
+
+}
+.dress{
+ background-color: #ffffff;
+    height: 520px; 
+    border-radius: 2rem;   
+    box-shadow: 1px 1px 3px #FF497C;
+}
+.dress h2{
+     color:  #333333;
+    margin-top: 10px;
+}
+.imgPage img{
+    width: 55%;
+  height: 220px;
+  border-radius: 18px;
+  margin-top: 10px;
+}
+.textPage h3{
+    margin-top: 20px;
+    line-height: 2;
+}
+.textPage span{
+   text-decoration: line-through;
+   margin-right:10px;
+   color: gray;
+   font-size: 19px;
+}
+.textPage p{
+    margin-bottom: 30px;
+    font-size: 24px;
+}
+.btnPage{
+    margin: 20px 60px;
+    padding: 20px 60px;
+}
+
+
+.btnBuy,.btnCart{
+    text-transform: capitalize;
+    padding: 11px 40px;
+     text-decoration: none;
+     border-radius: 2rem;
+     display: inline-block;
+     box-shadow: 1px 1px 4px #070707;
+    transition: all 0.3s ease;
+    border: 0;
+    margin-left:10px;
+    background-color: transparent;
+    color: #FF6B81; 
+    border: 1.5px solid #F06292; 
+    font-family: 'Almarai', sans-serif; 
+    box-shadow: 0px 0px 0px#070707;
+    position: relative;
+    z-index: 1;
+    margin-top: 10px;
+}
+.btnBuy::after{
+    content: "";
+    background-color:#FF3B68;
+    width:0%;
+    height: 100%;
+    position: absolute;
+    border-radius: 2rem;
+    inset: 0;
+    z-index: -1;
+    transition: all .5s cubic-bezier(0.5, 1.6, 0.4, 0.7);
+}
+.btnBuy:hover::after{
+    width: 100%;
+    border-radius: 2rem;
+}
+.btnBuy:hover{
+    color: #fff;
+}
+.btnCart:hover{
+    color: #fff;
+}
+.btnCart::after{
+    content: "";
+    background-color:#FF3B68;
+    width:0%;
+    height: 100%;
+    position: absolute;
+    border-radius: 2rem;
+    inset: 0;
+    z-index: -1;
+    transition: all .5s cubic-bezier(0.5, 1.6, 0.4, 0.7);
+}
+.btnCart:hover::after{
+    width: 100%;
+    border-radius: 2rem;
+}
+/*  */
+.btnPage {
+  display: flex;
+  gap: 14px;
+  margin: 50px 60px;
+}
+
+.page {
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  background-color: #FFFFFF;
+  border: 1px solid #FF3B68;
+  color: #333333;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  font-weight: 500;
+  box-shadow: 0 6px 15px rgba(0,0,0,0.12);
+  transition: all 0.4s ease;
+  cursor: pointer;
+}
+
+/* Hover ناعم */
+.page:hover {
+  background-color: #FF6B81;
+  color: #FFFFFF;
+}
+
+/* الصفحة الحالية */
+#active {
+  background-color: #FF6B81;
+  color: #FFFFFF;
+  pointer-events: none;
+}
+
+/* أقل من 992px */
+@media screen and (max-width: 992px) {
+    .countTimer {
+        width: 80%;
+        padding: 15px 20px;
+        margin: 20px auto;
+    }
+    .countTimer h2 {
+        font-size: 1.8rem;
+    }
+    .timer {
+        font-size: 1.3rem;
+    }
+    small {
+        font-size: 1rem;
+    }
+}
+
+/* أقل من 800px */
+@media screen and (max-width: 800px) {
+    .countTimer {
+        width: 75%;
+        padding: 12px 15px;
+    }
+    .countTimer h2 {
+        font-size: 1.6rem;
+    }
+    .timer {
+        font-size: 1.2rem;
+    }
+    small {
+        font-size: 0.95rem;
+    }
+}
+
+/* أقل من 600px */
+@media screen and (max-width: 600px) {
+    .countTimer {
+        width: 90%;
+        padding: 10px 12px;
+    }
+    .countTimer h2 {
+        font-size: 1.4rem;
+    }
+    .timer {
+        font-size: 1.1rem;
+    }
+    small {
+        font-size: 0.9rem;
+    }
+}
+
+/* أقل من 400px */
+@media screen and (max-width: 400px) {
+    .countTimer {
+        width: 100%;
+        padding: 8px 0;
+        margin: 10px 2px;
+    }
+    .countTimer h2 {
+        font-size: 1.2rem;
+    }
+    .timer {
+        font-size: 1rem;
+    }
+    small {
+        font-size: 0.8rem;
+    }
+    .dress{
+      width:100%;
+    height: 520px; 
+}
+}
+
+
+
