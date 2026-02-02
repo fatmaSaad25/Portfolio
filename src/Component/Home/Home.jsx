@@ -103,7 +103,7 @@ const Home = () => {
             <span className={StyleHome.typewriterText}>A Front-End Developer</span>
           </h1>
           <p>Crafting clean, modern, and responsive interfaces with a focus on details and performance.</p>
-          <a href="#portfolio" className={StyleHome.btnwork}>See My Work</a>
+          <a href="#projects" className={StyleHome.btnwork}>See My Work</a>
         </div>
       </div>
       <div className="col-lg-6">
