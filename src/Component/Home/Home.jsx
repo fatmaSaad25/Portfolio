@@ -7,8 +7,25 @@ import 'swiper/css';
 import 'swiper/css/navigation';
 import 'swiper/css/pagination';
 import { FaWhatsapp, FaFacebook, FaGithub } from 'react-icons/fa';
+import serverRwahel from '../img/serverRwahel.jpg';
+import logo from '../img/logo.jpg';
+import totyAcademy from '../img/totyAcademy.jpeg';
+import novaLight from '../img/novaLight.png';
+import Afs from '../img/Afs.png';
+import FS from '../img/FS.jpg';
+import novaDark from '../img/novaDark.png';
 
 const Home = () => {
+  const designs = [
+    { id: 1, img: serverRwahel, title: "Rowahel Logistics - Poster", category: "Advertising & Campaign Design" },
+    { id: 2, img: logo, title: "Rowahel Logistics - Brand Identity", category: "Logo & Typography" },
+    { id: 3, img: totyAcademy, title: "Toty Academy", category: "Educational & Kids Branding" },
+    { id: 4, img: novaLight, title: "Nova Travel - Elegant Light Edition", category: "Tourism & Travel Campaign" },
+    { id: 5, img: novaDark, title: "Nova Travel - Vibrant Dark Edition", category: "Social Media Graphics" },
+    { id: 6, img: Afs, title: "AFS Hiring Announcement", category: "Corporate Recruitment Poster" },
+    { id: 7, img: FS, title: "FS AI Video Packages", category: "AI-Driven Marketing Identity" },
+  ];
+
   const aiMarketingVideos = [
     {
       title: " Nova Travel(SA)",
@@ -20,7 +37,7 @@ const Home = () => {
     },
     {
       title: "RawahelTransport Company",
-      videoSrc: require('../img/رواحل.mp4')
+      videoSrc: require('../img/اماراتى.mp4') // تم التوجيه هنا مؤقتاً لحل مشكلة الاسم العربي "رواحل.mp4"
     },
     {
       title: " Nova Travel(AE)",
@@ -230,7 +247,7 @@ const Home = () => {
 
       <section className={StyleHome.aiSeriesSection} id="ai-series">
         <div className="container">
-          <h2 className={StyleHome.aiSectionTitle}><FaFilm />AI-generated series</h2>
+          <h2 className={StyleHome.aiSectionTitle}><FaFilm /> AI-generated series</h2>
           <div className="row mt-5 justify-content-center">
             {aiSeriesVideos.map((video, index) => (
               <div className="col-md-6 col-lg-5 mb-4" key={index}>
@@ -244,6 +261,33 @@ const Home = () => {
                   <div className={StyleHome.videoInfo}>
                     <h3>{video.title}</h3>
                     <p>{video.description}</p>
+                  </div>
+                </div>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* تم تعديل الـ styles هنا لتقرأ من StyleHome بشكل صحيح ومتناسق */}
+      <section className={StyleHome.gallerySection}>
+        <div className="container">
+          <div className={StyleHome.titleArea}>
+            <h2 className={StyleHome.designText}>Creative Designs Showcase</h2>
+            <p>A curated collection of my work in graphic design, social media campaigns, and brand identities.</p>
+            <div className={StyleHome.line}></div>
+          </div>
+
+          <div className={StyleHome.gridContainer}>
+            {designs.map((design) => (
+              <div key={design.id} className={StyleHome.designCard}>
+                <div className={StyleHome.imgWrapper}>
+                  <img src={design.img} alt={design.title} className={StyleHome.designImg} />
+                  <div className={StyleHome.overlay}>
+                    <div className={StyleHome.overlayText}>
+                      <h3>{design.title}</h3>
+                      <span>{design.category}</span>
+                    </div>
                   </div>
                 </div>
               </div>
