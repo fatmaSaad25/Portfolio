@@ -1,14 +1,16 @@
 {
   "files": {
-    "main.css": "/Portfolio/static/css/main.a1151ef5.css",
-    "main.js": "/Portfolio/static/js/main.18396237.js",
+    "main.css": "/Portfolio/static/css/main.833f27e6.css",
+    "main.js": "/Portfolio/static/js/main.cb1cd48c.js",
     "static/js/453.3f5bda53.chunk.js": "/Portfolio/static/js/453.3f5bda53.chunk.js",
     "static/media/مدينه الاحلام2.mp4": "/Portfolio/static/media/مدينه الاحلام2.7c7debbbe6f929fa47aa.mp4",
     "static/media/مدينه الاحلام1.mp4": "/Portfolio/static/media/مدينه الاحلام1.af3c49169e67b410a97b.mp4",
-    "static/media/رواحل.mp4": "/Portfolio/static/media/رواحل.871839ca8e1f20341694.mp4",
     "static/media/سعودى.mp4": "/Portfolio/static/media/سعودى.3675142c111b256f79cb.mp4",
     "static/media/اماراتى.mp4": "/Portfolio/static/media/اماراتى.7d3114a1c34fc506d9d4.mp4",
     "static/media/مصرى.mp4": "/Portfolio/static/media/مصرى.fcecf2bdfc639733736c.mp4",
+    "static/media/novaDark.png": "/Portfolio/static/media/novaDark.2b25db3d34df7785969e.png",
+    "static/media/novaLight.png": "/Portfolio/static/media/novaLight.b3eec097318b47cd906b.png",
+    "static/media/Afs.png": "/Portfolio/static/media/Afs.0492c749dd0b7fee69d8.png",
     "static/media/bronsi.PNG": "/Portfolio/static/media/bronsi.113dfec239865c5574c8.PNG",
     "static/media/zazmit.PNG": "/Portfolio/static/media/zazmit.b5101bad6076c7af3dd6.PNG",
     "static/media/womanStyle.PNG": "/Portfolio/static/media/womanStyle.f40b21a965a9b01ef755.PNG",
@@ -18,22 +20,26 @@
     "static/media/sheryAcademy.PNG": "/Portfolio/static/media/sheryAcademy.c50ba48a22acdcdd9d07.PNG",
     "static/media/fa-solid-900.ttf": "/Portfolio/static/media/fa-solid-900.07ed6d5fa32c1d54af0f.ttf",
     "static/media/img1-removebg-preview.png": "/Portfolio/static/media/img1-removebg-preview.aa7f86ba4cbec73b0591.png",
+    "static/media/serverRwahel.jpg": "/Portfolio/static/media/serverRwahel.7b0c4c66da6eb3adb80b.jpg",
     "static/media/fa-brands-400.ttf": "/Portfolio/static/media/fa-brands-400.0ff70dcbf135d859ebf3.ttf",
+    "static/media/FS.jpg": "/Portfolio/static/media/FS.316534a3cd2c8cfaa8d5.jpg",
+    "static/media/totyAcademy.jpeg": "/Portfolio/static/media/totyAcademy.c207ba275b2a31714541.jpeg",
     "static/media/fa-solid-900.woff2": "/Portfolio/static/media/fa-solid-900.93f719f4d62bfa3e748c.woff2",
     "static/media/fa-brands-400.woff2": "/Portfolio/static/media/fa-brands-400.bb8d5a145e22822103fb.woff2",
     "static/media/kaf.PNG": "/Portfolio/static/media/kaf.2d3642bd578064a9ea2f.PNG",
     "static/media/logo.png": "/Portfolio/static/media/logo.762bb6ebfda669d38161.png",
+    "static/media/logo.jpg": "/Portfolio/static/media/logo.4768c87f44a478542c37.jpg",
     "static/media/fa-regular-400.ttf": "/Portfolio/static/media/fa-regular-400.17a6e1aebccdbaa39e78.ttf",
     "static/media/fa-regular-400.woff2": "/Portfolio/static/media/fa-regular-400.bc3722686635b5f86132.woff2",
     "static/media/fa-v4compatibility.ttf": "/Portfolio/static/media/fa-v4compatibility.0f6cb412603527bda691.ttf",
     "static/media/fa-v4compatibility.woff2": "/Portfolio/static/media/fa-v4compatibility.6cfec8414be20e2c3426.woff2",
     "index.html": "/Portfolio/index.html",
-    "main.a1151ef5.css.map": "/Portfolio/static/css/main.a1151ef5.css.map",
-    "main.18396237.js.map": "/Portfolio/static/js/main.18396237.js.map",
+    "main.833f27e6.css.map": "/Portfolio/static/css/main.833f27e6.css.map",
+    "main.cb1cd48c.js.map": "/Portfolio/static/js/main.cb1cd48c.js.map",
     "453.3f5bda53.chunk.js.map": "/Portfolio/static/js/453.3f5bda53.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.a1151ef5.css",
-    "static/js/main.18396237.js"
+    "static/css/main.833f27e6.css",
+    "static/js/main.cb1cd48c.js"
   ]
 }
