@@ -55,7 +55,18 @@ const Home = () => {
       title: "Cinematic Series - Episode 2",
       description: "The sequel episode continuing the AI-driven narrative with advanced character stability and pacing.",
       videoSrc: require('../img/مدينه الاحلام2.mp4')
+    },
+    {
+      title: "Cinematic Series - Episode 3",
+      description: "The third episode in the series, which is the third part of a narrative series based on artificial intelligence.",
+      videoSrc: require('../img/مدينه الاحلام3.mp4')
+    },
+    {
+      title: "Cinematic Series - Episode 4",
+      description: "The fourth episode of the series, which is the fourth part of a narrative series based on artificial intelligence.",
+      videoSrc: require('../img/مدينه الاحلام4.mp4')
     }
+    
   ];
 
   const myProjects = [
