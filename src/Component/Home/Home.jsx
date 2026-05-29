@@ -173,7 +173,7 @@ const Home = () => {
             </div>
             <div className="col-lg-6">
               <div className={StyleHome.imgHero}>
-                <img src={require('../img/img1-removebg-preview.png')} alt="Fatma Saad" />
+                <img src={require('../img/test.png')} alt="Fatma Saad" />
               </div>
             </div>
           </div>
