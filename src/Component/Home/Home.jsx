@@ -105,27 +105,6 @@ const Home = () => {
       link: "https://kaf-kappa.vercel.app/",
       type: "code" 
     },
-    {
-      title: "Shery Academy",
-      category: "WordPress", 
-      img: require('../img/sheryAcademy.PNG'),
-      link: "https://sheryacademy.com/ar/%D8%A7%D9%84%D8%Sub%D9%8I%D8%A9/",
-      type: "wordpress"
-    },
-    {
-      title: "Bronsi Petroleum",
-      category: "WordPress",
-      img: require('../img/bronsi.PNG'),
-      link: "https://bronsi.ly/",
-      type: "wordpress"
-    },
-    {
-      title: "ZAZMIT Petroleum",
-      category: "WordPress", 
-      img: require('../img/zazmit.PNG'),
-      link: "https://zazmit.ly/",
-      type: "wordpress"
-    }
   ];
 
   const [result, setResult] = useState("");
