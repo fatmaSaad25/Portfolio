@@ -42,7 +42,15 @@ const Home = () => {
     {
       title: " Nova Travel(AE)",
       videoSrc: require('../img/اماراتى.mp4')
-    }
+    },
+      {
+      title: " Nova Travel(AE)",
+      videoSrc: require('../img/fixed car.mp4')
+    },
+      {
+      title: " Nova Travel(AE)",
+      videoSrc: require('../img/adscareem.mp4')
+    },
   ];
 
   const aiSeriesVideos = [
@@ -65,7 +73,12 @@ const Home = () => {
       title: "Cinematic Series - Episode 4",
       description: "The fourth episode of the series, which is the fourth part of a narrative series based on artificial intelligence.",
       videoSrc: require('../img/مدينه الاحلام4.mp4')
-    }
+    },
+     {
+      title: "Cinematic Series - Episode 5",
+      description: "The fourth episode of the series, which is the fourth part of a narrative series based on artificial intelligence.",
+      videoSrc: require('../img/مدينه الاحلام5.mp4')
+    },
     
   ];
 
