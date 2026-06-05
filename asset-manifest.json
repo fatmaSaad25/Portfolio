@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Portfolio/static/css/main.f5093fe6.css",
-    "main.js": "/Portfolio/static/js/main.c6a14387.js",
+    "main.js": "/Portfolio/static/js/main.1fce706b.js",
     "static/js/453.3f5bda53.chunk.js": "/Portfolio/static/js/453.3f5bda53.chunk.js",
     "static/media/مدينه الاحلام5.mp4": "/Portfolio/static/media/مدينه الاحلام5.11ab344ef7c2a1440e0c.mp4",
     "static/media/مدينه الاحلام4.mp4": "/Portfolio/static/media/مدينه الاحلام4.a30194d01581ef66d117.mp4",
@@ -37,11 +37,11 @@
     "static/media/fa-v4compatibility.woff2": "/Portfolio/static/media/fa-v4compatibility.6cfec8414be20e2c3426.woff2",
     "index.html": "/Portfolio/index.html",
     "main.f5093fe6.css.map": "/Portfolio/static/css/main.f5093fe6.css.map",
-    "main.c6a14387.js.map": "/Portfolio/static/js/main.c6a14387.js.map",
+    "main.1fce706b.js.map": "/Portfolio/static/js/main.1fce706b.js.map",
     "453.3f5bda53.chunk.js.map": "/Portfolio/static/js/453.3f5bda53.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.f5093fe6.css",
-    "static/js/main.c6a14387.js"
+    "static/js/main.1fce706b.js"
   ]
 }
