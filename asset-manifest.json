@@ -1,15 +1,18 @@
 {
   "files": {
     "main.css": "/Portfolio/static/css/main.f5093fe6.css",
-    "main.js": "/Portfolio/static/js/main.df672465.js",
+    "main.js": "/Portfolio/static/js/main.c6a14387.js",
     "static/js/453.3f5bda53.chunk.js": "/Portfolio/static/js/453.3f5bda53.chunk.js",
+    "static/media/مدينه الاحلام5.mp4": "/Portfolio/static/media/مدينه الاحلام5.11ab344ef7c2a1440e0c.mp4",
     "static/media/مدينه الاحلام4.mp4": "/Portfolio/static/media/مدينه الاحلام4.a30194d01581ef66d117.mp4",
     "static/media/مدينه الاحلام3.mp4": "/Portfolio/static/media/مدينه الاحلام3.c4807928686f54216200.mp4",
     "static/media/مدينه الاحلام2.mp4": "/Portfolio/static/media/مدينه الاحلام2.7c7debbbe6f929fa47aa.mp4",
     "static/media/مدينه الاحلام1.mp4": "/Portfolio/static/media/مدينه الاحلام1.af3c49169e67b410a97b.mp4",
     "static/media/سعودى.mp4": "/Portfolio/static/media/سعودى.3675142c111b256f79cb.mp4",
     "static/media/اماراتى.mp4": "/Portfolio/static/media/اماراتى.7d3114a1c34fc506d9d4.mp4",
+    "static/media/adscareem.mp4": "/Portfolio/static/media/adscareem.9a2ef8339c7808465d4c.mp4",
     "static/media/مصرى.mp4": "/Portfolio/static/media/مصرى.fcecf2bdfc639733736c.mp4",
+    "static/media/fixed car.mp4": "/Portfolio/static/media/fixed car.34b74135c05eeba79c9a.mp4",
     "static/media/novaDark.png": "/Portfolio/static/media/novaDark.2b25db3d34df7785969e.png",
     "static/media/test.png": "/Portfolio/static/media/test.e0c19eca9630969a9844.png",
     "static/media/novaLight.png": "/Portfolio/static/media/novaLight.b3eec097318b47cd906b.png",
@@ -34,11 +37,11 @@
     "static/media/fa-v4compatibility.woff2": "/Portfolio/static/media/fa-v4compatibility.6cfec8414be20e2c3426.woff2",
     "index.html": "/Portfolio/index.html",
     "main.f5093fe6.css.map": "/Portfolio/static/css/main.f5093fe6.css.map",
-    "main.df672465.js.map": "/Portfolio/static/js/main.df672465.js.map",
+    "main.c6a14387.js.map": "/Portfolio/static/js/main.c6a14387.js.map",
     "453.3f5bda53.chunk.js.map": "/Portfolio/static/js/453.3f5bda53.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.f5093fe6.css",
-    "static/js/main.df672465.js"
+    "static/js/main.c6a14387.js"
   ]
 }
