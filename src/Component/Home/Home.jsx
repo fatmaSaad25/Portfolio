@@ -44,11 +44,11 @@ const Home = () => {
       videoSrc: require('../img/اماراتى.mp4')
     },
       {
-      title: " Nova Travel(AE)",
+      title: "AutoCare",
       videoSrc: require('../img/fixed car.mp4')
     },
       {
-      title: " Nova Travel(AE)",
+      title: " Santeva",
       videoSrc: require('../img/adscareem.mp4')
     },
   ];
